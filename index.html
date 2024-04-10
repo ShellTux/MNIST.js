@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MNIST</title>
+  <script type="text/javascript" src="./JSLib/library.js"></script>
+  <script type="text/javascript" src="engine.js"></script>
+  <style>
+  .stuff {
+    font-size: 64pt;
+  }
+  .correct{
+    color: #00CC00;
+  }
+  .wrong{
+    color: #CC0000;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <canvas width="200" height="200" id="draw"></canvas>
+    <canvas width="200" height="200" id="canvas"></canvas>
+<p id="info">
+  Label: <span class="stuff" id="label"></span>
+  Guess: <span class="stuff" id="guess"></span>
+</p>
+  </div>
+
+</body>
+
+</html>
